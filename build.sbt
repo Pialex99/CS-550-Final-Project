@@ -20,7 +20,8 @@ lazy val root = (project in file("."))
       "edu.berkeley.cs" %% "chisel3"         % "3.4-SNAPSHOT",
       "edu.berkeley.cs" %% "chisel-testers2" % "0.1-SNAPSHOT",
       "edu.berkeley.cs" %% "chisel-iotesters"% "1.5-SNAPSHOT"
-    )
+    ),
+    fork := true
   )
 
 // Refine scalac params from tpolecat
