@@ -4,7 +4,11 @@ This repository contains some examples of Chisel circuits that can be verified u
 
 ## Structure
 
-The examples can be found in the src directory. Our implementation are in the submodules `chisel3` and`chisel3/firrtl`. Run `git submodule init` to download them. To verrify the circuits [cvc4](https://cvc4.github.io/) needs to be installed and in `$PATH`, then simply run `sbt run` with the corresponding circuit uncommended in `src/Main.scala`.
+The examples can be found in the src directory. Our implementation are in the submodules `chisel3` and `chisel3/firrtl`. To clone this repo run 
+```
+$ git clone git@github.com:Pialex99/CS-550-Final-Project.git --recurse-submodules
+```
+ to automatically download them. To verrify the circuits [cvc4](https://cvc4.github.io/) needs to be installed and in `$PATH`, then simply run `sbt run` with the corresponding circuit uncommended in `src/Main.scala`.
 
 ## Authors
 
